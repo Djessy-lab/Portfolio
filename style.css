@@ -149,6 +149,19 @@ body {
     border-radius: 20px;
     padding: 10px;
   }
+  .iframe-rnb {
+    width: 435px;
+    height: 295px;
+    margin-top: -58px;
+  }
+}
+
+@media (max-width: 390px) {
+  .iframe-rnb {
+    width: 266px;
+    height: 174px;
+    margin-top: 0px;
+  }
 }
 
 .rnb {
