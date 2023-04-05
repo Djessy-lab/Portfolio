@@ -1,12 +1,8 @@
+/* STRUCTURE */
+
 body {
   background: linear-gradient(rgb(157 149 149),rgb(244 244 244));
 }
-
-#img-profile {
-  border-radius: 12px;
-  min-height: 100%;
-}
-
 
 .contain {
   width: 100%;
@@ -18,6 +14,13 @@ body {
   border-radius: 6px;
   box-shadow: 0 0 20px 0 lightgray;
 }
+
+
+
+
+
+
+/* CARDS */
 
 .carde {
   box-shadow: 0 0 20px 0 lightgray;
@@ -45,6 +48,122 @@ body {
   background-color: #C1F1D9;
 }
 
+.card-text {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+  font-size: 30px;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-contact li {
+  list-style: none;
+}
+
+.card-contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-rnbnb {
+  background: linear-gradient(#e1c34d, #9198e5);
+  min-width: 346px;
+  min-height: 100%;
+}
+
+.card-watch {
+  background-color: #FEFBE9;
+  min-width: 346px;
+}
+
+.cardModal {
+  width: 1000px;
+  height: 800px;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 8px;
+  padding: 10px;
+}
+
+@media  (max-width: 765px) {
+  .cardModal {
+    width: 100vw;
+    height: 120vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .cardModalCV {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardModal {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.cardModalCV {
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 8px;
+  padding: 10px;
+}
+
+.card-cv {
+  background-color: white;
+  margin: auto;
+}
+
+.infos-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.rnb {
+  width: 100%;
+}
+
+.description-modal {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.description {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+
+.mon-cv {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 70px;
+}
+
+.modal-content {
+  align-items: center;
+}
+
+
+#content {
+  background-color: transparent;
+  border: none;
+}
+
+
+
+
+
+
+/* CADRES IPHONE MAC IPAD  */
+
 .cadre {
   height: 350px;
   background-image: url(assets/img/apple-iphone-11-small.png);
@@ -62,39 +181,6 @@ body {
   background-repeat: no-repeat;
   padding: 11px;
 }
-
-.iframe-c {
-  max-width: 285px;
-    margin: 6px auto;
-    border-radius: 26px;
-}
-
-
-
-.iframe-chit {
-  margin: 1px auto;
-  border-radius: 22px;
-  width: 156px;
-  height: 326px;
-}
-
-.iframe-rnb {
-  width: 260px;
-  margin: 2px auto;
-  border-radius: 11px;
-  height: 165px;
-  object-fit: cover;
-}
-
-.frame-r {
-  width: 781px;
-  height: 507px;
-  margin: 38px auto;
-  border-radius: 9px;
-  object-fit: cover;
-}
-
-
 
 .cadre-mac {
   min-height: 320px;
@@ -132,6 +218,45 @@ body {
   padding: 60px 10px;
 }
 
+
+
+
+
+
+
+
+
+/* FRAMES IMAGES VIDEOS  */
+
+.iframe-c {
+  max-width: 285px;
+    margin: 6px auto;
+    border-radius: 26px;
+}
+
+.iframe-chit {
+  margin: 1px auto;
+  border-radius: 22px;
+  width: 156px;
+  height: 326px;
+}
+
+.iframe-rnb {
+  width: 260px;
+  margin: 2px auto;
+  border-radius: 11px;
+  height: 165px;
+  object-fit: cover;
+}
+
+.frame-r {
+  width: 781px;
+  height: 507px;
+  margin: 38px auto;
+  border-radius: 9px;
+  object-fit: cover;
+}
+
 .img-modal-ipad {
   width: 842px;
   height: 586px;
@@ -139,162 +264,11 @@ body {
   border-radius: 14px;
 }
 
-.rnb {
-  width: 100%;
-}
-
-
-.card-text {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.card-title {
-  font-size: 30px;
-  margin: 10px;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-.description-modal {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-.description {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-}
-
-.card-contact li {
-  list-style: none;
-}
-
-.card-contact a {
-  text-decoration: none;
-  color: black;
-}
-
-.card-rnbnb {
-  background: linear-gradient(#e1c34d, #9198e5);
-  min-width: 346px;
-  min-height: 100%;
-}
-
-.card-watch {
-  background-color: #FEFBE9;
-  min-width: 346px;
-}
-
-.mon-cv {
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 70px;
-}
-
 .img-cv {
   width: 493px;
   border-radius: 10px;
   box-shadow: 0 0 26px 0 gray;
 }
-
-.links {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 20px;
-}
-
-.close {
-  background-color: rgb(255, 60, 0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  font-size: 10px;
-  font-weight: lighter;
-  padding-bottom: 2px;
-}
-
-.reduce {
-  background-color: rgb(238, 238, 2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  font-size: 10px;
-  font-weight: lighter;
-  padding-bottom: 2px;
-}
-
-.extend {
-  background-color: rgb(1, 240, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  font-size: 10px;
-  font-weight: lighter;
-  padding-bottom: 2px;
-  transform: rotate(30deg);
-}
-
-.buttons-window {
-  display: flex;
-  justify-content: space-around;
-  width: 50px;
-  margin-left: 4px;
-}
-
-/* Modals */
-
-.modal-content {
-  align-items: center;
-}
-
-
-#content {
-  background-color: transparent;
-  border: none;
-}
-
-.btn:focus {
-  border: none;
-}
-
-.cardModal {
-  width: 1000px;
-  height: 800px;
-  border-radius: 10px;
-  padding-top: 10px;
-  margin: 8px;
-  padding: 10px;
-}
-
-@media  (max-width: 765px) {
-  .cardModal {
-    width: 100vw;
-    height: 120vh;
-  }
-}
-
-@media (max-width: 390px) {
-  .cardModalCV {
-    width: 100%;
-    height: 100%;
-  }
-
-  .cardModal {
-    width: 100%;
-    height: 100%;
-  }
-}
-
 
 @media  (max-width: 765px) {
   .watchlist {
@@ -362,41 +336,7 @@ body {
     height: 380px;
     margin: 112px auto;
   }
-
-  /* .watchlist {
-    border-radius: 4px;
-  }
-
-  .img-modal-ipad {
-    width: 690px;
-    height: 480px;
-    margin: 27px auto;
-    border-radius: 30px;
-  } */
 }
-
-/* @media (min-width: 0px) and (max-width: 390px) {
-  .frame-r {
-    height: 186px;
-    margin: 216px auto;
-    width: 276px;
-  }
-} */
-
-
-
-.cardModalCV {
-  border-radius: 10px;
-  padding-top: 10px;
-  margin: 8px;
-  padding: 10px;
-}
-
-.card-cv {
-  background-color: white;
-  margin: auto;
-}
-
 
 .flex-img {
   display: flex;
@@ -413,9 +353,70 @@ body {
   margin-top: 20px;
 }
 
-.infos-card {
+
+
+
+
+
+
+
+/* BOUTONS LIENS  */
+
+
+
+.links {
   display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.close {
+  background-color: rgb(255, 60, 0);
+  display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
-  margin: 10px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: lighter;
+  padding-bottom: 2px;
+}
+
+.reduce {
+  background-color: rgb(238, 238, 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: lighter;
+  padding-bottom: 2px;
+}
+
+.extend {
+  background-color: rgb(1, 240, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: lighter;
+  padding-bottom: 2px;
+  transform: rotate(30deg);
+}
+
+.buttons-window {
+  display: flex;
+  justify-content: space-around;
+  width: 50px;
+  margin-left: 4px;
+}
+
+.btn:focus {
+  border: none;
 }
