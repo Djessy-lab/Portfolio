@@ -64,11 +64,10 @@ body {
 }
 
 .frame-c {
-  margin-top: 11px;
-  width: 287px;
-  height: 611px;
-  margin: 7px auto;
-  border-radius: 24px;
+  max-width: 300px;
+  height: 615px;
+  margin: 4px auto;
+  border-radius: 29px;
 }
 
 .iframe-chit {
@@ -79,17 +78,19 @@ body {
 }
 
 .iframe-rnb {
+  width: 260px;
+  margin: 2px auto;
+  border-radius: 11px;
   height: 165px;
-  width: 264px;
-  margin: 0 auto;
-  border-radius: 10px;
+  object-fit: cover;
 }
 
 .frame-r {
-  width: 794px;
-  height: 499px;
-  margin: 47px auto;
+  width: 791px;
+  height: 507px;
+  margin: 38px auto;
   border-radius: 22px;
+  object-fit: cover;
 }
 
 
@@ -148,6 +149,19 @@ body {
   .watchlist {
     border-radius: 20px;
     padding: 10px;
+  }
+  .iframe-rnb {
+    width: 435px;
+    height: 295px;
+    margin-top: -58px;
+  }
+}
+
+@media (max-width: 390px) {
+  .iframe-rnb {
+    width: 266px;
+    height: 174px;
+    margin-top: 0px;
   }
 }
 
@@ -315,7 +329,7 @@ body {
 }
 
 .marg-img {
-  margin-bottom: -28px;
+  margin-bottom: 0;
 }
 
 .marg-cv {
