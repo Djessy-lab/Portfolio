@@ -69,6 +69,8 @@ body {
     border-radius: 26px;
 }
 
+
+
 .iframe-chit {
   margin: 1px auto;
   border-radius: 22px;
@@ -85,10 +87,10 @@ body {
 }
 
 .frame-r {
-  width: 791px;
+  width: 781px;
   height: 507px;
   margin: 38px auto;
-  border-radius: 22px;
+  border-radius: 9px;
   object-fit: cover;
 }
 
@@ -137,33 +139,6 @@ body {
   border-radius: 14px;
 }
 
-/* @media (min-width: 390px) {
-  .contain {
-    width: 100vw;
-  }
-} */
-
-
-@media  (max-width: 765px) {
-  .watchlist {
-    border-radius: 20px;
-    padding: 10px;
-  }
-  .iframe-rnb {
-    width: 435px;
-    height: 295px;
-    margin-top: -58px;
-  }
-}
-
-@media (max-width: 390px) {
-  .iframe-rnb {
-    width: 266px;
-    height: 174px;
-    margin-top: 0px;
-  }
-}
-
 .rnb {
   width: 100%;
 }
@@ -210,13 +185,6 @@ body {
 .card-watch {
   background-color: #FEFBE9;
   min-width: 346px;
-}
-
-.card-cv {
-  min-height: 250px;
-  width: 100%;
-  background-color: white;
-  margin: auto;
 }
 
 .mon-cv {
@@ -289,11 +257,6 @@ body {
   align-items: center;
 }
 
-/* .modal-content {
-  min-width: 1000px;
-  min-height: 800px;
-} */
-
 
 #content {
   background-color: transparent;
@@ -313,14 +276,127 @@ body {
   padding: 10px;
 }
 
+@media  (max-width: 765px) {
+  .cardModal {
+    width: 100vw;
+    height: 120vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .cardModalCV {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardModal {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+@media  (max-width: 765px) {
+  .watchlist {
+    border-radius: 15px;
+    padding: 0px;
+
+  }
+  .iframe-rnb {
+    width: 435px;
+    height: 295px;
+    margin-top: -58px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 500px){
+  .frame-r {
+    width: 83%;
+    height: 188px;
+    margin: 216px auto;
+  }
+  .watchlist {
+    border-radius: 4px;
+  }
+
+  .img-modal-ipad {
+    width: 690px;
+    height: 480px;
+    margin: 27px auto;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+  .iframe-rnb {
+    width: 266px;
+    height: 174px;
+    margin-top: 0px;
+  }
+
+  .cadre-mac {
+    width: 100%;
+  }
+
+  .img-modal-ipad {
+    width: 816px;
+    height: 236px;
+    margin: 148px auto;
+    border-radius: 14px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 390px) {
+
+}
+
+@media (min-width: 400px) and (max-width: 770px) {
+  .iframe-rnb {
+    width: 439px;
+    height: 281px;
+    margin: -59px auto;
+  }
+
+  .frame-r {
+    width: 587px;
+    height: 380px;
+    margin: 112px auto;
+  }
+
+  /* .watchlist {
+    border-radius: 4px;
+  }
+
+  .img-modal-ipad {
+    width: 690px;
+    height: 480px;
+    margin: 27px auto;
+    border-radius: 30px;
+  } */
+}
+
+/* @media (min-width: 0px) and (max-width: 390px) {
+  .frame-r {
+    height: 186px;
+    margin: 216px auto;
+    width: 276px;
+  }
+} */
+
+
+
 .cardModalCV {
-  width: 1000px;
-  height: 760px;
   border-radius: 10px;
   padding-top: 10px;
   margin: 8px;
   padding: 10px;
 }
+
+.card-cv {
+  background-color: white;
+  margin: auto;
+}
+
 
 .flex-img {
   display: flex;
