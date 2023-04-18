@@ -1,12 +1,8 @@
+/* STRUCTURE */
+
 body {
-  background: linear-gradient(rgb(157 149 149),rgb(244 244 244));
+  background: linear-gradient(rgb(157 149 149), rgb(244 244 244));
 }
-
-#img-profile {
-  border-radius: 12px;
-  min-height: 100%;
-}
-
 
 .contain {
   width: 100%;
@@ -17,6 +13,19 @@ body {
   margin: 0 auto;
   border-radius: 6px;
   box-shadow: 0 0 20px 0 lightgray;
+}
+
+
+
+.carde:hover {
+  background: linear-gradient(rgb(157 149 149), rgb(244 244 244));
+}
+
+
+/* CARDS */
+
+.card-netflix {
+  background-color: #ffba08;
 }
 
 .carde {
@@ -45,6 +54,122 @@ body {
   background-color: #C1F1D9;
 }
 
+.card-text {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-title {
+  font-size: 30px;
+  margin: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.card-contact li {
+  list-style: none;
+}
+
+.card-contact a {
+  text-decoration: none;
+  color: black;
+}
+
+.card-rnbnb {
+  background: linear-gradient(#e1c34d, #9198e5);
+  min-width: 346px;
+  min-height: 100%;
+}
+
+.card-watch {
+  background-color: #FEFBE9;
+  min-width: 346px;
+}
+
+.cardModal {
+  width: 1000px;
+  height: 800px;
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 8px;
+  padding: 10px;
+}
+
+@media (max-width: 765px) {
+  .cardModal {
+    width: 100vw;
+    height: 120vh;
+  }
+}
+
+@media (max-width: 390px) {
+  .cardModalCV {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardModal {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.cardModalCV {
+  border-radius: 10px;
+  padding-top: 10px;
+  margin: 8px;
+  padding: 10px;
+}
+
+.card-cv {
+  background-color: white;
+  margin: auto;
+}
+
+.infos-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.rnb {
+  width: 100%;
+}
+
+.description-modal {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.description {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+
+.mon-cv {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 70px;
+}
+
+.modal-content {
+  align-items: center;
+}
+
+
+#content {
+  background-color: transparent;
+  border: none;
+}
+
+
+
+
+
+
+/* CADRES IPHONE MAC IPAD  */
+
 .cadre {
   height: 350px;
   background-image: url(assets/img/apple-iphone-11-small.png);
@@ -62,37 +187,6 @@ body {
   background-repeat: no-repeat;
   padding: 11px;
 }
-
-.frame-c {
-  margin-top: 11px;
-  width: 287px;
-  height: 611px;
-  margin: 7px auto;
-  border-radius: 24px;
-}
-
-.iframe-chit {
-  margin: 1px auto;
-  border-radius: 22px;
-  width: 156px;
-  height: 326px;
-}
-
-.iframe-rnb {
-  height: 165px;
-  width: 264px;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
-.frame-r {
-  width: 794px;
-  height: 499px;
-  margin: 47px auto;
-  border-radius: 22px;
-}
-
-
 
 .cadre-mac {
   min-height: 320px;
@@ -130,6 +224,60 @@ body {
   padding: 60px 10px;
 }
 
+
+
+
+
+
+
+
+
+/* FRAMES IMAGES VIDEOS  */
+
+.iframe-netflix {
+  width: 265px;
+  height: 162px;
+  margin: 5px auto;
+  object-fit: fill;
+}
+
+.iframe-net {
+  width: 780px;
+  height: 505px;
+  margin: 54px auto;
+  object-fit: fill;
+  border-radius: 9px;
+}
+
+.iframe-c {
+  max-width: 285px;
+  margin: 6px auto;
+  border-radius: 26px;
+}
+
+.iframe-chit {
+  margin: 1px auto;
+  border-radius: 22px;
+  width: 156px;
+  height: 326px;
+}
+
+.iframe-rnb {
+  width: 260px;
+  margin: 2px auto;
+  border-radius: 11px;
+  height: 165px;
+  object-fit: cover;
+}
+
+.frame-r {
+  width: 781px;
+  height: 507px;
+  margin: 38px auto;
+  border-radius: 9px;
+  object-fit: cover;
+}
+
 .img-modal-ipad {
   width: 842px;
   height: 586px;
@@ -137,85 +285,112 @@ body {
   border-radius: 14px;
 }
 
-/* @media (min-width: 390px) {
-  .contain {
-    width: 100vw;
-  }
-} */
-
-
-@media  (max-width: 765px) {
-  .watchlist {
-    border-radius: 20px;
-    padding: 10px;
-  }
-}
-
-.rnb {
-  width: 100%;
-}
-
-
-.card-text {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-}
-
-.card-title {
-  font-size: 30px;
-  margin: 10px;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-.description-modal {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-.description {
-  font-size: 14px;
-  font-family: 'Roboto', sans-serif;
-  font-weight: lighter;
-}
-
-.card-contact li {
-  list-style: none;
-}
-
-.card-contact a {
-  text-decoration: none;
-  color: black;
-}
-
-.card-rnbnb {
-  background: linear-gradient(#e1c34d, #9198e5);
-  min-width: 346px;
-  min-height: 100%;
-}
-
-.card-watch {
-  background-color: #FEFBE9;
-  min-width: 346px;
-}
-
-.card-cv {
-  min-height: 250px;
-  width: 100%;
-  background-color: white;
-  margin: auto;
-}
-
-.mon-cv {
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 70px;
-}
-
 .img-cv {
   width: 493px;
   border-radius: 10px;
   box-shadow: 0 0 26px 0 gray;
 }
+
+@media (max-width: 765px) {
+  .watchlist {
+    border-radius: 15px;
+    padding: 0px;
+
+  }
+
+  .iframe-rnb {
+    width: 435px;
+    height: 295px;
+    margin-top: -58px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 500px) {
+  .frame-r {
+    width: 83%;
+    height: 188px;
+    margin: 216px auto;
+  }
+
+  .watchlist {
+    border-radius: 4px;
+  }
+
+  .img-modal-ipad {
+    width: 690px;
+    height: 480px;
+    margin: 27px auto;
+    border-radius: 30px;
+  }
+
+  .iframe-net {
+    width: 288px;
+    height: 186px;
+    margin: 214px auto;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+  .iframe-rnb {
+    width: 266px;
+    height: 174px;
+    margin-top: 0px;
+  }
+
+  .cadre-mac {
+    width: 100%;
+  }
+
+  .img-modal-ipad {
+    width: 816px;
+    height: 236px;
+    margin: 148px auto;
+    border-radius: 14px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 390px) {}
+
+@media (min-width: 400px) and (max-width: 770px) {
+  .iframe-rnb {
+    width: 439px;
+    height: 281px;
+    margin: -59px auto;
+  }
+
+  .frame-r {
+    width: 587px;
+    height: 380px;
+    margin: 112px auto;
+  }
+
+}
+
+.flex-img {
+  display: flex;
+  justify-content: center;
+}
+
+.marg-img {
+  margin-bottom: 0;
+}
+
+.marg-cv {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+/* BOUTONS LIENS  */
+
+
 
 .links {
   display: flex;
@@ -270,63 +445,6 @@ body {
   margin-left: 4px;
 }
 
-/* Modals */
-
-.modal-content {
-  align-items: center;
-}
-
-/* .modal-content {
-  min-width: 1000px;
-  min-height: 800px;
-} */
-
-
-#content {
-  background-color: transparent;
-  border: none;
-}
-
 .btn:focus {
   border: none;
-}
-
-.cardModal {
-  width: 1000px;
-  height: 800px;
-  border-radius: 10px;
-  padding-top: 10px;
-  margin: 8px;
-  padding: 10px;
-}
-
-.cardModalCV {
-  width: 1000px;
-  height: 760px;
-  border-radius: 10px;
-  padding-top: 10px;
-  margin: 8px;
-  padding: 10px;
-}
-
-.flex-img {
-  display: flex;
-  justify-content: center;
-}
-
-.marg-img {
-  margin-bottom: -28px;
-}
-
-.marg-cv {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.infos-card {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 10px;
 }
