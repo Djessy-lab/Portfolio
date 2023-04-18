@@ -17,24 +17,17 @@ body {
 
 
 
-<<<<<<< HEAD
 .carde:hover {
   background: linear-gradient(rgb(157 149 149), rgb(244 244 244));
 }
-=======
-
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
 
 
 /* CARDS */
 
-<<<<<<< HEAD
 .card-netflix {
   background-color: #ffba08;
 }
 
-=======
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
 .carde {
   box-shadow: 0 0 20px 0 lightgray;
   border-radius: 10px;
@@ -101,11 +94,7 @@ body {
   padding: 10px;
 }
 
-<<<<<<< HEAD
 @media (max-width: 765px) {
-=======
-@media  (max-width: 765px) {
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
   .cardModal {
     width: 100vw;
     height: 120vh;
@@ -245,7 +234,6 @@ body {
 
 /* FRAMES IMAGES VIDEOS  */
 
-<<<<<<< HEAD
 .iframe-netflix {
   width: 265px;
   height: 162px;
@@ -265,12 +253,6 @@ body {
   max-width: 285px;
   margin: 6px auto;
   border-radius: 26px;
-=======
-.iframe-c {
-  max-width: 285px;
-    margin: 6px auto;
-    border-radius: 26px;
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
 }
 
 .iframe-chit {
@@ -309,20 +291,12 @@ body {
   box-shadow: 0 0 26px 0 gray;
 }
 
-<<<<<<< HEAD
 @media (max-width: 765px) {
-=======
-@media  (max-width: 765px) {
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
   .watchlist {
     border-radius: 15px;
     padding: 0px;
 
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
   .iframe-rnb {
     width: 435px;
     height: 295px;
@@ -330,20 +304,12 @@ body {
   }
 }
 
-<<<<<<< HEAD
 @media (min-width: 390px) and (max-width: 500px) {
-=======
-@media (min-width: 390px) and (max-width: 500px){
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
   .frame-r {
     width: 83%;
     height: 188px;
     margin: 216px auto;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
   .watchlist {
     border-radius: 4px;
   }
@@ -354,15 +320,12 @@ body {
     margin: 27px auto;
     border-radius: 30px;
   }
-<<<<<<< HEAD
 
   .iframe-net {
     width: 288px;
     height: 186px;
     margin: 214px auto;
   }
-=======
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
 }
 
 @media (min-width: 0px) and (max-width: 700px) {
@@ -384,13 +347,7 @@ body {
   }
 }
 
-<<<<<<< HEAD
 @media (min-width: 0px) and (max-width: 390px) {}
-=======
-@media (min-width: 0px) and (max-width: 390px) {
-
-}
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
 
 @media (min-width: 400px) and (max-width: 770px) {
   .iframe-rnb {
@@ -404,10 +361,6 @@ body {
     height: 380px;
     margin: 112px auto;
   }
-<<<<<<< HEAD
-
-=======
->>>>>>> f1d3c70922c170fe3af7b028ffdd6efc3d7a04ce
 }
 
 .flex-img {
